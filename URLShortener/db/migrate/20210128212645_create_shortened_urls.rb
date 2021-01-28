@@ -9,6 +9,6 @@ class CreateShortenedUrls < ActiveRecord::Migration[5.2]
     end
 
     add_index :shortened_urls, :user_id
-    add_index :shortened_urls, :short_url, unique: true
+    add_index :shortened_urls, :short_url, unique: truem
   end
 end
